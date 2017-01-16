@@ -14,6 +14,10 @@ def battleDiceRoll(attacking_troops, defending_troops):
 def BDR(attacking_troops, defending_troops):
 	if attacking_troops == 1 or defending_troops == 0:
 		print('==============================')
+		if attacking_troops > defending_troops:
+			print(''.join(['Att wins with ', str(attacking_troops), ' troops.']))
+		else:
+			print(''.join(['Def wins with ', str(defending_troops), ' troops.']))
 	else:
 		if attacking_troops > 3:
 			if defending_troops > 1 :
