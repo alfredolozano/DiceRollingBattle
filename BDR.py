@@ -6,7 +6,7 @@
 
 def battleDiceRoll(attacking_troops, defending_troops): 
 	print('==============================') 
-	print('|| Att || Def|| TA || || TD ||')
+	print('|| Att || Def|| TA || TD ||')
 	print('==============================')
 	return BDR(attacking_troops, defending_troops)
 
